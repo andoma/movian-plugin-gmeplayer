@@ -1,0 +1,24 @@
+{
+  "description": "This plugin extends Movian with support for playing game console music files<p>Based on the fantastic libGME<br>Game_Music_Emu library copyright (C) 2003-2009 Shay Green.<br>Sega Genesis YM2612 emulator copyright (C) 2002 Stephane Dallongeville.",
+  "author": "Andreas Smas",
+  "title": "Game Music Engine",
+  "synopsis": "Play music files from NES, SNES, etc",
+  "version": "1.0.1",
+  "file": "gme.bc",
+  "showtimeVersion": "5.0.369",
+  "type": "bitcode",
+  "id": "gmeplayer",
+  "icon": "gme.png",
+  "category": "audioengine",
+  "control": {
+    "fileformats": [{
+      "data": "U05FUy1TUEM3MDA=",
+      "mask": "//////////////8=",
+      "comment": "SNES"
+    }, {
+      "data": "TkVTTQ==",
+      "mask": "/////w==",
+      "comment": "NES"
+    }]
+  }
+}
